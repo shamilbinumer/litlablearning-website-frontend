@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.NavbarMainWrapper {
+    .mobile-nav-wrapper{
+        display: none;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 555;
+        .login-btn{
+            position: absolute;
+            right: 5rem;
+            top: 27px;
+            font-family: Montserrat;
+            font-size: 13.77px;
+            font-weight: 600;
+            line-height: 21.66px;
+            border-radius: 4px;
+            border: 1px solid #07415B;
+            color: #ffffff;
+            background-color: #07415B;
+            text-decoration: none;
+            padding: 3px 20px;
+            
+            margin-right: 1rem;
+        }
+        img{
+            width: 40px !important;
+        }
+        .navbar{
+            background-color: white;
+            .navbar-collapse{
+                text-align: center;
+            }
+        }
+
+    }
+    .desktop-navigation-bar {
+        transition: .3s;
+        z-index: 55;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 5rem 0rem;
+    .login{
+        font-family: Montserrat;
+        font-size: 15.77px;
+        font-weight: 600;
+        line-height: 33.66px;
+        border-radius: 7px;
+        border: 1px solid #000000;
+        color: #07415B;
+        text-decoration: none;
+        padding: 3px 20px;
+        margin-right: 10px;
+        
+    }
+    .sign-up{
+        background-color: #07415B;
+        color: white;
+    }
+        .nav-logo {
+            img {
+                width: 50px;
+                transition: .3s;
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+
+            .nav-item {
+                a {
+                    text-decoration: none;
+                    font-family: Inter;
+                    font-size: 17.46px;
+                    font-weight: 500;
+                    line-height: 33.24px;
+                    text-align: left;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .scrolled {
+        background-color: #07405b35;
+        backdrop-filter: blur(10px);
+        height: 60px;
+        align-items: center;
+        padding: 0rem 5rem 0rem;
+        .nav-logo {
+            img {
+                width: 30px;
+            }
+        }
+    }
+    @media(max-width:991px){
+        .desktop-nav-wrapper{
+            display: none;
+        }
+        .mobile-nav-wrapper{
+            display: block !important;
+        }
+    }
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.personaOneMainWrapper {
+    .persona-one {
+        padding: 6rem;
+        position: relative;
+
+        .card-imge {
+            width: 755px;
+            position: absolute;
+            top: 10rem;
+            right: 9rem;
+        }
+
+        .gif-image {
+            transform: rotate(-18deg);
+            width: 222px;
+            top: 23rem;
+            right: 25rem;
+        }
+
+        .persona-title {
+            font-family: Shantell Sans;
+            font-size: 28.51px;
+            font-weight: 400;
+            line-height: 41.46px;
+            letter-spacing: -1.5931034088134766px;
+
+        }
+
+        .person-one-heading {
+            font-family: Inter;
+            font-size: 69.29px;
+            font-weight: 500;
+            line-height: 66.5px;
+            letter-spacing: -4.5103654861450195px;
+            text-align: left;
+
+        }
+
+        .person-para {
+            width: 556px;
+            font-family: Inter;
+            font-size: 22.67px;
+            font-weight: 400;
+            line-height: 35.38px;
+            letter-spacing: -0.9984345436096191px;
+            text-align: left;
+            margin-top: 1.4rem;
+
+        }
+
+        button {
+            font-family: Montserrat;
+            font-size: 20.45px;
+            font-weight: 700;
+            line-height: 24.93px;
+            letter-spacing: 0.0015em;
+            padding: 5px 40px;
+            background: #FFC727;
+            border: 2px solid;
+            border-image-source: linear-gradient(0deg, #000000, #000000),
+                linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            border-radius: 12px;
+
+        }
+    }
+
+
+    @media(max-width:576px) {
+        .persona-one {
+            padding: 1rem !important;
+            height: 900px !important;
+        }
+
+        .persona-title {
+            font-size: 15.51px !important;
+            letter-spacing: 0.5931034088134766px !important;
+
+        }
+
+        .person-one-heading {
+            font-size: 29.29px !important;
+            line-height: 36.5px !important;
+            letter-spacing: -2px !important;
+        }
+
+        .person-para {
+            width: 90% !important;
+            font-size: 15.67px !important;
+            line-height: 25px !important;
+        }
+
+        .card-imge {
+            // position: absolute !important;
+            top: 33rem !important;
+            right: 1rem !important;
+            width: 380px !important;
+         
+        }
+        .gif-image{
+            right: 9rem !important;
+            width: 121px !important;
+            top: 39rem !important;
+        }
+        
+
+        button {
+            font-size: 14.45px !important;
+            padding: 2px 40px !important;
+        }
+    }
+
+    @media(min-width:577px) and (max-width:991px) {
+        .persona-one {
+            padding: 1rem !important;
+            height: 960px !important;
+        }
+
+        .persona-title {
+            font-size: 15.51px !important;
+            letter-spacing: 0.5931034088134766px !important;
+
+        }
+
+        .person-one-heading {
+            font-size: 29.29px !important;
+            line-height: 36.5px !important;
+            letter-spacing: -2px !important;
+        }
+
+        .person-para {
+            width: 90% !important;
+            font-size: 15.67px !important;
+            line-height: 20px !important;
+        }
+
+        .card-imge {
+            width: 485px !important;
+            left: 112px;
+            top: 26rem !important;
+        }
+
+        .gif-image {
+            width: 150px !important;
+            top: 34.3rem !important;
+            left: 18.5rem !important;
+        }
+
+        button {
+            font-size: 14.45px !important;
+            padding: 2px 40px !important;
+        }
+    }
+
+    @media(min-width:991px) and (max-width:1200px) {
+        .persona-one {
+            padding: 1rem !important;
+        }
+
+        .card-imge {
+            width: 485px !important;
+            left: 32rem;
+            top: 8rem !important;
+        }
+
+        .gif-image {
+            width: 173px !important;
+            top: 16rem !important;
+            left: 43rem !important;
+        }
+    }
+
+    @media(min-width:1200px) and (max-width:1500px) {
+        .card-imge {
+            width: 585px !important;
+            left: 39rem !important;
+            top: 13rem !important;
+        }
+
+        .gif-image {
+            width: 173px !important;
+            top: 23rem !important;
+            left: 53rem !important;
+        }
+    }
+}

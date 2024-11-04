@@ -1,0 +1,198 @@
+.PersonaTwoMainWrapper {
+    .persona-two {
+        padding: 6rem;
+        position: relative;
+        .persona-img{
+            transform: rotate(39deg);
+            position: absolute;
+            left: -90px;
+            top: 5rem;
+        }
+        .gif{
+            transform: rotate(20deg);
+            left: 12rem;
+            top: 24rem;
+            width: 322px;
+        }
+        .contemt-section {
+            width: 60%;
+            height: 100vh;
+            // background-color: red;
+            margin-left: auto;
+
+            .persons-text {
+                font-family: Shantell Sans;
+                font-size: 28.51px;
+                font-weight: 400;
+                line-height: 41.46px;
+                letter-spacing: -1.5931034088134766px;
+
+            }
+
+            h1 {
+                width: fit-content;
+                text-align: right;
+                font-family: Inter;
+                font-size: 69.29px;
+                font-weight: 500;
+                line-height: 65.5px;
+                letter-spacing: -4.5103654861450195px;
+
+            }
+
+            .para {
+                padding-left: 6rem;
+                font-family: Inter;
+                font-size: 22.67px;
+                font-weight: 400;
+                line-height: 31.4px;
+                letter-spacing: -0.9984345436096191px;
+                width: 700px;
+            }
+
+            button {
+                font-family: Montserrat;
+                font-size: 20.45px;
+                font-weight: 700;
+                line-height: 24.93px;
+                letter-spacing: 0.0015em;
+                text-align: center;
+                background: #FFC727;
+                border: 2px solid;
+                border-image-source: linear-gradient(0deg, #000000, #000000),
+                linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+                padding: 3px 40px;
+                border-radius: 12px;
+                margin-left: 6rem;
+                
+            }
+        }
+    }
+    @media(max-width:576px){
+        .persona-two {
+            overflow: hidden !important;
+            padding: 1rem !important;
+            height: 900px !important;
+            .persons-text{
+                font-size: 15.51px !important;
+            letter-spacing: 0.5931034088134766px !important;
+            }
+            .persona-img{
+                width: 433px;
+                left: -54px;
+                top: 30rem !important;
+            }
+            .gif{
+                left: 7.5rem;
+                top: 40rem !important;
+                width: 141px;
+            }
+            .contemt-section {
+                width: 100% !important;
+                height: 100vh;
+                margin-left: auto;
+                h1{
+                    text-align: left !important;
+                    font-size: 29.29px !important;
+                    letter-spacing: -2px !important;
+                    line-height: 30px !important;
+                }
+                
+            .para {
+                padding-left: 0 !important;
+                font-size: 15.67px !important;
+                width: 90% !important;
+                line-height: 25px !important;
+            }
+            button {
+                font-size: 14.45px !important;
+                padding: 2px 40px !important;
+                margin-left: 0 !important;
+                
+            }
+            }
+        }
+    }
+    @media(min-width:576px) and (max-width:991px){
+        .persona-two {
+            overflow: hidden !important;
+            padding: 1rem !important;
+            height: 850px !important;
+            .persons-text{
+                font-size: 15.51px !important;
+            letter-spacing: 0.5931034088134766px !important;
+            }
+            .persona-img{
+                width: 484px;
+                left: 124px;
+                top: 23rem;
+            }
+            .gif{
+                left: 18.5rem;
+                top: 35rem;
+                width: 178px;
+            }
+            .contemt-section {
+                width: 100% !important;
+                height: 100vh;
+                margin-left: auto;
+                h1{
+                    text-align: left !important;
+                    font-size: 29.29px !important;
+                    letter-spacing: -2px !important;
+                    line-height: 25px !important;
+                }
+                
+            .para {
+                padding-left: 0 !important;
+                font-size: 15.67px !important;
+                width: 90% !important;
+                line-height: 25px !important;
+            }
+            button {
+                font-size: 14.45px !important;
+                padding: 2px 40px !important;
+                margin-left: 0 !important;
+                
+            }
+            }
+        }
+    }
+    @media(min-width:991px) and (max-width:1200px){
+        .persona-two {
+            height: 600px !important;
+            padding: 1rem !important;
+        }
+        .persona-img{
+            width: 484px !important;
+            left: -28px !important;
+            top: 5rem !important;
+        }
+        .gif{
+            left: 8.5rem !important;
+            top: 16rem !important;
+            width: 214px !important;
+        }
+        .para {
+            padding-left: 4rem !important;
+            // font-size: 15.67px !important;
+            width: 90% !important;
+        }
+    }
+    @media(min-width:1200px) and (max-width:1400px){
+        .persona-two {
+            height: 600px !important;
+            padding: 1rem !important;
+        }
+        .persona-img{
+            width: 581px !important;
+            left: -28px !important;
+            top: 8rem !important;
+        }
+        .gif{
+            left: 11.5rem !important;
+            top: 22rem !important;
+            width: 214px !important;
+        }
+    }
+}

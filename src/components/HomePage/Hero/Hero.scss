@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.HeroMainWrapper {
+    .hero {
+        padding-top: 130px;
+        overflow: hidden;
+        width: 100%;
+
+        .hero-heading {
+            position: relative;
+            text-align: center;
+            // background-color: red;
+            width: fit-content;
+            padding-top: 2rem;
+            margin: auto;
+
+            .big-cericle {
+                position: absolute;
+                top: 0;
+                left: 1rem;
+                top: 50%;
+                transform: translate(0, -50%);
+            }
+
+            .small-cericle {
+                position: absolute;
+                top: 0;
+                right: -1rem;
+                top: -10rem;
+                // transform: translate(0, -50%);
+            }
+
+            .top-note-image {
+                position: absolute;
+                top: -2.7rem;
+                left: 11.7rem;
+            }
+
+            .bottom-note-image {
+                position: absolute;
+                bottom: -2rem;
+                right: .2rem;
+            }
+
+            h1 {
+                font-family: Roboto;
+                font-size: 79.03px;
+                font-weight: 600;
+                line-height: 68.23px;
+                letter-spacing: -3px;
+                text-align: center;
+
+                span {
+                    color: #6CCEE6;
+                }
+
+            }
+        }
+
+        .hero-para {
+            p {
+                text-align: center;
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 32.7px;
+                letter-spacing: -0.8999999761581421px;
+                text-align: center;
+                color: #000000B2;
+                margin-top: 3rem;
+                margin-bottom: 2rem;
+            }
+
+            button {
+                padding: 3px 40px;
+                display: block;
+                margin: 0 auto;
+                font-family: Montserrat;
+                font-size: 20.45px;
+                font-weight: 700;
+                line-height: 24.93px;
+                letter-spacing: 0.0015em;
+                text-align: center;
+                color: black;
+                background: #FFC727;
+                border: 2px solid;
+                border-image-source: linear-gradient(0deg, #000000, #000000),
+                    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+                border-radius: 12px;
+
+            }
+        }
+
+        .banner-img {
+            // height: 470px;
+            position: relative;
+
+            .card-images1 {
+                height: 470px;
+                position: relative;
+
+                .banner-gif1 {
+                    border-radius: 24px;
+                    left: 4rem;
+                    transform: rotate(6deg);
+                    position: absolute;
+                    width: 135px;
+                    top: 17rem;
+                }
+
+                p {
+                    // z-index: 999999;
+                    position: absolute;
+                    transform: rotate(28deg);
+                    font-family: Montserrat;
+                    font-size: 21.71px;
+                    font-weight: 800;
+                    line-height: 26.18px;
+                    letter-spacing: 0.23878462612628937px;
+                    text-align: left;
+                    color: white;
+                    top: 8rem;
+                    left: 8rem;
+
+                    span {
+                        color: #6BCCE5;
+
+                    }
+
+                }
+            }
+
+            .card-images2 {
+                position: relative;
+                margin: auto;
+                width: 270px;
+                height: 30px;
+                background-color: red;
+
+                .gif-img-2 {
+                    width: 10rem;
+                    top: -7rem;
+                    position: absolute;
+                    left: 4rem;
+                }
+
+                p {
+                    position: absolute;
+                    left: 5rem;
+                    top: -14rem;
+                    font-family: Montserrat;
+                    font-size: 21.71px;
+                    font-weight: 800;
+                    line-height: 26.18px;
+                    letter-spacing: 0.23878462612628937px;
+                    text-align: left;
+                    color: white;
+
+                    span {
+                        color: #07415B;
+
+                    }
+                }
+            }
+
+            .card-images3 {
+                position: relative;
+                margin-left: auto;
+                width: 270px;
+                height: 30px;
+                .gif-img3{
+                    position: absolute;
+                    top: -18rem;
+                    left: 0rem;
+                    width: 17rem;
+                    transform: rotate(-28deg);
+                }
+                p {
+                    position: absolute;
+                    top: -22rem;
+                    right: 7rem;
+                    font-family: Montserrat;
+                    font-size: 21.71px;
+                    font-weight: 800;
+                    line-height: 26.18px;
+                    letter-spacing: 0.23878462612628937px;
+                    text-align: left;
+                    color: #07415B;
+                    transform: rotate(-28deg);
+                    span{
+                        color: #6BCCE5;
+                    }
+                }
+            }
+
+            .card-one {
+                position: absolute;
+                bottom: -5rem;
+                left: 0;
+                width: 325px;
+                transform: rotate(28deg);
+            }
+
+            .card-two {
+                position: absolute;
+                bottom: -10rem;
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: 325px;
+
+            }
+
+            .card-three {
+                position: absolute;
+                bottom: -3rem;
+                right: 0;
+                width: 325px;
+                transform: rotate(-28deg);
+
+            }
+
+            //    .card-2{
+            //     position: absolute;
+            //     width: 100px;
+            //    }
+            //    .card-3{
+            //     position: absolute;
+            //     width: 100px;
+            //    }
+        }
+    }
+
+    @media(max-width:576px) {
+        .hero {
+            position: relative;
+            height: 100vh !important;
+            .card-images2 {
+                display: none !important;
+            }
+            .banner-img {
+                position: relative;
+    
+                .card-images1 {
+                    height: 470px;
+                    position: relative;
+    
+                    .banner-gif1 {
+                        border-radius: 10px;
+                        left: 2rem;
+                        width: 55px;
+                        top: 10.4rem;
+                    }
+    
+                    p {
+                        font-size: 7.71px;
+                        line-height: 13.18px;
+                        letter-spacing: 0.2387846261px;
+                        top: 6.5rem;
+                        left: 3rem;
+    
+                        span {
+                            color: #6BCCE5;
+    
+                        }
+    
+                    }
+                }
+              
+    
+                .card-images3 {
+                    position: relative;
+                    margin-left: auto;
+                    width: 270px;
+                    height: 30px;
+                    .gif-img3{
+                        top: -21rem;
+                        left: 10rem;
+                        width: 7rem;
+                    }
+                    p {
+                        top: -22.5rem;
+                        right: 2.5rem;
+                        font-size: 8.71px;
+                        line-height: 12.18px;
+                    }
+                }
+    
+                .card-one {
+                    bottom: 12rem;
+                    width: 130px;
+                }
+    
+                .card-two {
+                    display: none !important;
+                }
+    
+                .card-three {
+                    position: absolute;
+                    bottom: 13.5rem;
+                    width: 130px;
+                }
+    
+            }
+        }
+
+        .big-cericle,
+        .small-cericle {
+            display: none !important;
+        }
+
+        .hero-heading {
+            padding: 4px;
+
+            h1 {
+                font-size: 40px !important;
+                line-height: 50px !important;
+            }
+
+            .top-note-image {
+                width: 60px !important;
+                top: -1.7rem !important;
+                left: 3rem !important;
+            }
+
+            .bottom-note-image {
+                width: 40px !important;
+                bottom: -1rem !important;
+            }
+        }
+
+        .hero-para {
+            p {
+                font-size: 12px !important;
+                line-height: 20px !important;
+            }
+
+            button {
+                padding: 2px 30px !important;
+                font-size: 14.45px !important;
+                border: 1px solid !important;
+                font-weight: 500 !important;
+            }
+        }
+
+    }
+    @media(min-width:576px) and (max-width:768px){
+        .card-images2 {
+            display: none !important;
+           
+        }
+    }
+    @media(min-width:768px) and (max-width:1100px){
+        .banner-img {
+            position: relative;
+            .card-images2 {
+                display: none !important;
+               
+            }
+            .card-images1 {
+                height: 470px;
+                position: relative;
+
+                .banner-gif1 {
+                    border-radius: 10px;
+                    left: 2rem;
+                    width: 55px;
+                    top: 10.4rem;
+                }
+
+                p {
+                    font-size: 7.71px;
+                    line-height: 13.18px;
+                    letter-spacing: 0.2387846261px;
+                    top: 6.5rem;
+                    left: 3rem;
+
+                    span {
+                        color: #6BCCE5;
+
+                    }
+
+                }
+            }
+
+            .card-images3 {
+                position: relative;
+                margin-left: auto;
+                width: 270px;
+                height: 30px;
+                .gif-img3{
+                    top: -22rem;
+                    left: 10rem;
+                    width: 7rem;
+                }
+                p {
+                    top: -23.5rem;
+                    right: 2.5rem;
+                    font-size: 8.71px;
+                    line-height: 12.18px;
+                }
+            }
+
+            .card-one {
+                bottom: 12rem;
+                width: 130px;
+            }
+
+            .card-two {
+                display: none !important;
+            }
+
+            .card-three {
+                position: absolute;
+                bottom: 15rem;
+                width: 130px;
+            }
+
+        }
+    }
+}
