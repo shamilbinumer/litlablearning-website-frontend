@@ -1,14 +1,17 @@
-import { HashRouter,Routes,Route } from "react-router-dom"
+import { Routes,Route, BrowserRouter } from "react-router-dom"
 import Home from "./components/HomePage/Home"
+import PlanDetails from "./components/PlanDetails/PlanDetail"
 function App() {
 
   return (
     <>
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" Component={Home}/>
+        <Route path="/early-bird-details" Component={PlanDetails}/>
+
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
     </>
   )
 }

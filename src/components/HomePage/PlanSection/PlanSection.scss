@@ -1,0 +1,84 @@
+.PlanSectionMainWrapper{
+    .main{
+        background-image: url('/BACKGROUND.png');
+        width: 100%;
+        background-size: cover;
+        height: auto;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.382);
+        .contents{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 656px;
+            h3{
+                font-family: Montserrat;
+                font-size: 38px;
+                font-weight: 600;
+                line-height: 46.32px;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #095D48;
+            }
+            h1{
+                font-family: Montserrat;
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 80.87px;
+                letter-spacing: -0.02em;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: white;
+            }
+            h4{
+                font-family: Montserrat;
+                font-size: 33px;
+                font-weight: 400;
+                line-height: 40.23px;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #095D48;
+            }
+            button{
+                width: 214px;
+                height: 65px;
+                top: 466px;
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 700;
+                letter-spacing: -0.02em;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #095D48;
+                border-radius: 14px;
+                border: 1px solid white;
+                margin-top: 1rem;
+
+            }
+        }
+        @media(max-width:768px){
+            .contents{
+                height: 356px !important;
+                h3{
+                    font-size: 20px !important;
+                }
+                h1{
+                    font-size: 40px !important;
+                    line-height: 40.87px !important;
+                }
+                h4{
+                    font-size: 23px !important;
+                }
+                button{
+                    width: 154px !important;
+                    height: 45px !important;
+                    font-size: 20px !important;
+    
+                }
+            }
+        }
+    }
+    
+}

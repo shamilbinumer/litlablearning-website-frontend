@@ -44,11 +44,11 @@ const Navbar = () => {
           <div className="nav-right">
             <div className="nav-links">
               <div className="nav-item"><a href='#'>Home</a></div>
-              {/* <div className="nav-item"><Link to="/">About</Link></div> */}
+              <div className="nav-item"><Link to="#early-bird">Early Bird</Link></div>
               <div className="nav-item"><Link to='#contact'>Contact</Link></div>
             <div>
-            <a href="" className='login'>Log in</a>
-            <a href="" className='login sign-up'>Sign Up</a>
+            <a href="https://litlab.live/#login_page" className='login'>Log in</a>
+            <a href="https://litlab.live/#registration" className='login sign-up'>Sign Up</a>
 
             </div>
            
@@ -64,8 +64,8 @@ const Navbar = () => {
               <img src="/Logo.png" alt="Logo" />
             </Link>
           </a>
-          <a href="#" className="login-btn">
-            Log in
+          <a href="https://litlab.live/#login_page" className="login-btn">
+            Log in 
           </a>
           <button
             className="navbar-toggler"
@@ -88,6 +88,13 @@ const Navbar = () => {
               <a className="nav-link active" href="#" onClick={handleLinkClick}>
                 Home
               </a>
+              <Link
+                className="nav-link active"
+                to="#early-bird"
+                onClick={handleLinkClick}
+              >
+                Early Bird
+              </Link>
               <Link
                 className="nav-link active"
                 to="#contact"

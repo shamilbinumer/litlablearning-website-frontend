@@ -24,7 +24,7 @@ const Contact = () => {
                             <img src="/telephone 1.png" alt="" />
                         </div>
                         <div className="item-card">
-                            <a href="mailto:litlablearning@gmail.com">Email : litlablearning@gmail.com</a>
+                            <a href="mailto:Info@litlablearning.com">Email : Info@litlablearning.com</a>
                             <img src="/gmail (1) 2.png" alt="" />
                         </div>
                         <div className="item-card">

@@ -1,0 +1,322 @@
+.PlanDetailPageMainWrapper{
+    .plan-details{
+        background-image: url('/plan details bg.png');
+        width: 100%;
+        padding: 5rem;
+        background-size: cover;
+        .back-btn{
+            font-size: 30px;
+            color: black;
+        }
+        .heading{
+            text-align: center;
+            padding-top: 3rem;
+            h3{
+                font-family: Montserrat;
+                font-size: 38px;
+                font-weight: 600;
+                line-height: 46.32px;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #07415B;
+            }
+            h1{
+                font-family: Montserrat;
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 80.87px;
+                letter-spacing: -0.02em;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #7E3640;
+            }
+            h2{
+                font-family: Montserrat;
+                font-size: 90px;
+                font-weight: 700;
+                line-height: 80.87px;
+                letter-spacing: -0.02em;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #7E3640;
+            }
+            h4{
+                font-family: Montserrat;
+                font-size: 33px;
+                font-weight: 400;
+                line-height: 40.23px;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #07415B;
+            }
+        }
+        .plan-card-main{
+            width: 90%;
+            background-color: #B2DDE8;
+            margin: auto;
+            border-radius: 39px;
+            margin-top: 3rem;
+            padding: 2rem;
+            .plan-card-left{
+                padding-top: 4rem;
+                li{
+                    font-family: Montserrat;
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: 32.02px;
+                    letter-spacing: -0.800606369972229px;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    span{
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 32.02px;
+                        letter-spacing: -0.800606369972229px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+
+                    }
+
+                }
+                li::marker{
+                    width: 11px !important;
+                    height: 11px !important;
+                }
+            }
+            .plan-card-right{
+                .plan-card{
+                    width: 100%;
+                    background-color: #ffff;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    .price-container{
+                        border-radius: 20px;
+                        background: linear-gradient(81.37deg, #6BCCE5 8.31%, #1D546C 100%);
+                        height: 120px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .price{
+                            margin-bottom: 0 !important;
+                            padding-bottom: 0 !important;
+                            color: white;
+                            position: relative;
+                            h4{
+                                font-family: Montserrat;
+                                font-size: 45px;
+                                font-weight: 700;
+                                line-height: 80.87px;
+                                letter-spacing: -0.02em;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+
+                            }
+                            .cross{
+                                position: absolute;
+                                border-bottom: 3px solid white;
+                                width: 116%;
+                                top: 40%;
+                                left: -7%;
+                                transform: rotate(10deg);
+                              
+                            }
+                        }
+                    }
+                    .offer-price-section{
+                        text-align: center;
+                        padding: 2rem;
+                        h1{
+                            font-family: Montserrat;
+                            font-size: 70px;
+                            font-weight: 700;
+                            line-height: 80.87px;
+                            letter-spacing: -0.02em;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+
+                        }
+                        h3{
+                            font-family: Montserrat;
+                            font-size: 26px;
+                            font-weight: 700;
+                            letter-spacing: -0.02em;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+
+                        }
+                        button{
+                            padding: 10px 20px;
+                            width: 152px;
+                            background: linear-gradient(81.37deg, #6BCCE5 8.31%, #238AB8 100%);
+                            border-radius: 14px;
+                            font-family: Montserrat;
+                            font-size: 20px;
+                            font-weight: 700;
+                            letter-spacing: -0.02em;
+                            text-align: center;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: white;
+                            border: none;
+                        }
+                        button:hover{
+                            color: rgb(0, 0, 0);
+                        }
+                    }
+                }
+                .coupon-apply-wraper{
+                    width: 100%;
+                    height: 76px;
+                    background-color: white;
+                    margin-top: 2rem;
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 1rem;
+                    border: 2.03px solid #292D325E;
+                    align-items: center;
+                    input{
+                        width: 86%;
+                        height: 70px;
+                        border: none;
+                        font-size: 22px;
+                        font-weight: 700;
+                        color: #000000;
+                        letter-spacing: 1px;
+                        font-family: Montserrat;
+
+                    }
+                    input::placeholder{
+                        font-family: Montserrat;
+                        font-size: 22px;
+                        font-weight: 700;
+                        letter-spacing: -0.02em;
+                        color: #0000006E;
+
+                    }
+                    input:focus{
+                        outline: none;
+                    }
+                    button{
+                        background-color: transparent;
+                        border: none;
+                        font-family: Montserrat;
+                        font-size: 28px;
+                        font-weight: 700;
+                        line-height: 80.87px;
+                        letter-spacing: -0.02em;
+                        text-align: center;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #008AB2;
+                    }
+                }
+                .apply-ref-text{
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 80.87px;
+                    letter-spacing: -0.02em;
+                    text-align: center;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    margin-bottom: 0 !important;
+
+                }
+            }
+        }
+    }
+    @media(max-width:700px){
+        .plan-details{
+            padding: 1rem !important;
+            .heading{
+                text-align: center;
+                padding-top: 1rem;
+                h3{
+                    font-size: 20px !important;
+                    line-height: 30px !important;
+                }
+                h1{
+                    font-size: 35px !important;
+                    line-height: 50.87px !important;
+                }
+                h2{
+                    font-size: 50px !important;
+                    line-height: 50.87px !important;
+                }
+                h4{
+                    font-size: 23px !important;
+                }
+            }
+            .plan-card-left{
+                padding-left: 0 !important;
+            }
+            .plan-card-main{
+                width: 100% !important;
+                li{
+                    font-size: 16px !important;
+                }
+                .plan-card{
+                    margin-bottom: 10px !important;
+                    .price-container{
+                        height: 80px !important;
+                        .price{
+                            h4{
+                                font-size: 35px !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .coupon-apply-wraper{
+                height: 60px !important;
+                input{
+                    height: 55px !important;
+                    font-size: 15px !important;
+                }
+                input::placeholder{
+                    font-size: 15px !important;
+                }
+                button{
+                    font-size: 15px !important;
+                }
+            }
+            .apply-ref-text{
+                padding-top: 1rem;
+                line-height: 30px !important;
+            }
+        }
+    }
+    @media(min-width:700px) and (max-width:991px){
+        .apply-ref-text{
+            padding-top: 1rem;
+            line-height: 30px !important;
+        }
+        .plan-card-left{
+            padding-top: 0 !important;
+        }
+        .plan-card{
+            margin-bottom: 10px;
+        }
+    }
+    @media(min-width:991px) and (max-width:1300px){
+        .apply-ref-text{
+            padding-top: 1rem;
+            line-height: 30px !important;
+        }
+        .plan-card-left{
+            padding-top: 0 !important;
+        }
+        .plan-card-main{
+            width: 100% !important;
+        }
+        .plan-card{
+            margin-bottom: 10px;
+        }
+    }
+}

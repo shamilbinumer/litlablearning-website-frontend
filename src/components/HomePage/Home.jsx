@@ -7,6 +7,8 @@ import PersonaThree from "./PersonaThree/PersonaThree"
 import PersonaTwo from "./PersonaTwo/PersonaTwo"
 import ThirdSection from "./ThirdSection/ThirdSection"
 import WelcomeSection from "./WelcomeSection/WelcomeSection"
+import PlanSection from "./PlanSection/PlanSection"
+
 
 const Home = () => {
   return (
@@ -14,6 +16,7 @@ const Home = () => {
       <Navbar/>
 
       <Hero/>
+      <PlanSection/>
       <WelcomeSection/>
       <ThirdSection/>
       <PersonaOne/>
