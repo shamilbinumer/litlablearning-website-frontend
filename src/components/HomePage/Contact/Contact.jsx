@@ -1,3 +1,4 @@
+
 import './Contact.scss'
 
 const Contact = () => {
@@ -33,7 +34,9 @@ const Contact = () => {
                             <img src="/Group 481816.png" alt="" />
                         </div>
                     </div>
+                   
                 </div>
+               
             </div>
          </section>
         </div>

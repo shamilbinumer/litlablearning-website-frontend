@@ -230,8 +230,33 @@
                 }
             }
         }
+        
+       
+    }
+    .policy-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        gap: 3rem;
+        a{
+            text-decoration: none;
+            color: black;
+            font-family: inter;
+            font-size: 15px;
+            font-weight: 400;
+        }
     }
     @media(max-width:700px){
+        .policy-section{
+            padding: 10px;
+            flex-wrap: wrap;
+            height: auto !important;
+            gap: 1rem !important;
+            a{
+                font-size: 12px !important;
+            }
+        }
         .plan-details{
             padding: 1rem !important;
             .heading{

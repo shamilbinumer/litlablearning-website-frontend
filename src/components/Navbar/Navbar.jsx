@@ -38,12 +38,12 @@ const Navbar = () => {
         <div className={`desktop-navigation-bar  ${isScrolled ? 'scrolled' : ''}`}>
           <div className="nav-left">
             <div className="nav-logo">
-             <Link> <img src="/Logo.png" alt="" /></Link>
+             <Link to='/'> <img src="/Logo.png" alt="" /></Link>
             </div>
           </div>
           <div className="nav-right">
             <div className="nav-links">
-              <div className="nav-item"><a href='#'>Home</a></div>
+              <div className="nav-item"><a href='/#'>Home</a></div>
               <div className="nav-item"><Link to="#early-bird">Early Bird</Link></div>
               <div className="nav-item"><Link to='#contact'>Contact</Link></div>
             <div>

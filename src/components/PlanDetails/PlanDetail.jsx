@@ -69,6 +69,14 @@ const PlanDetails = () => {
     </div>
      </div>
       </div>
+      <div className="policy-section">
+                       <Link to='/terms-and-conditions'> <div>Terms and Conditions</div></Link>
+                       <Link to='/refund-policy'> <div>Refund Policy</div></Link>
+                        <Link to='/privacy-policy'><div>Privacy Policy</div></Link>
+                       <Link to='/return-policy'> <div>Return Policy</div></Link>
+                       <Link to='/shipping-policy'> <div>Shipping Policy</div></Link>
+
+                    </div>
     </div>
   )
 }
