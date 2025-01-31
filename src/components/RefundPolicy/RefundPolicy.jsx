@@ -41,7 +41,7 @@ const RefundPolicy = () => {
                 </p>
                 <p className='term-heading'>4. Refund Processing</p>
                 <p className='term-disc'>
-                If a refund is approved, we will process the refund within [Number] business days. The refund will be issued to the original payment method used for the purchase.
+                If a refund is approved, the amount will be credited within 7 business days. The refund will be issued to the original payment method used for the purchase
 
                 </p>
                 <p className='term-heading'>5. Disclaimer</p>

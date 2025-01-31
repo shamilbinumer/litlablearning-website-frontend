@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 const Hero = () => {
+  
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
@@ -22,7 +23,7 @@ const Hero = () => {
         </div>
         <div className="hero-para">
           <p data-aos='fade-up'> Our platform is designed to simplify learning, providing all the resources and <br /> support you need to pass your exams with confidence.</p>
-          <button>Get Started</button>
+          <a href="https://litlab.live/#login_page"><button>Get Started</button></a>
         </div>
         <div className="banner-img">
           <div className='card-images1'><img src="/card 1.jpg" alt="" className='card-one' /><p><span>Engaging</span> and <br /> <span>Interactive</span> <br /> Learning <br /> Environment</p>

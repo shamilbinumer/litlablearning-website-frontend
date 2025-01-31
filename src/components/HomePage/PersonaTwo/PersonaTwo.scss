@@ -2,6 +2,9 @@
     .persona-two {
         padding: 6rem;
         position: relative;
+        a{
+            text-decoration: none;
+        }
         .persona-img{
             transform: rotate(39deg);
             position: absolute;
