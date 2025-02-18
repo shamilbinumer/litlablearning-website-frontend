@@ -47,8 +47,8 @@ const Navbar = () => {
               <div className="nav-item"><Link to="#early-bird">Early Bird</Link></div>
               <div className="nav-item"><Link to='#contact'>Contact</Link></div>
             <div>
-            <a href="https://litlab.live/#login_page" className='login'>Log in</a>
-            <a href="https://litlab.live/#registration" className='login sign-up'>Sign Up</a>
+            <a href="https://litlab.live/#/login" className='login'>Log in</a>
+            <a href="https://litlab.live/#/signup" className='login sign-up'>Sign Up</a>
 
             </div>
            
@@ -64,7 +64,7 @@ const Navbar = () => {
               <img src="/Logo.png" alt="Logo" />
             </Link>
           </a>
-          <a href="https://litlab.live/#login_page" className="login-btn">
+          <a href="https://litlab.live/#/login" className="login-btn">
             Log in 
           </a>
           <button
