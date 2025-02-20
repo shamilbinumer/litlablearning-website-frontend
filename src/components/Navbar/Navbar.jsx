@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="nav-right">
             <div className="nav-links">
               <div className="nav-item"><a href='/#'>Home</a></div>
-              <div className="nav-item"><Link to="#early-bird">Early Bird</Link></div>
+              {/* <div className="nav-item"><Link to="#early-bird">Early Bird</Link></div> */}
               <div className="nav-item"><Link to='#contact'>Contact</Link></div>
             <div>
             <a href="https://litlab.live/#/login" className='login'>Log in</a>
