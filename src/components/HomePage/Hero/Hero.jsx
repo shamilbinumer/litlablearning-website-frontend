@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
         <div className="hero-para">
           <p data-aos='fade-up'> Our platform is designed to simplify learning, providing all the resources and <br /> support you need to pass your exams with confidence.</p>
-          <a href="https://litlab.live/#/login"><button>Get Started</button></a>
+          <a href="https://litlablearninglive.web.app/#/login"><button>Get Started</button></a>
         </div>
         <div className="banner-img">
           <div className='card-images1'><img src="/card 1.jpg" alt="" className='card-one' /><p><span>Engaging</span> and <br /> <span>Interactive</span> <br /> Learning <br /> Environment</p>
