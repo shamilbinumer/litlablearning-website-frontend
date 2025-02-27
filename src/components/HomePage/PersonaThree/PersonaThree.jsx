@@ -11,7 +11,7 @@ const PersonaThree = () => {
         <p className="person-para">
         Our e-learning app provides meticulously crafted, high-quality notes that are clear, concise, and well-organized. Designed to simplify complex concepts, these notes help students study more efficiently and retain information better. Whether preparing for exams or deepening subject knowledge, students can rely on our comprehensive notes to guide them towards academic success.
         </p>
-        <a href="https://litlablearninglive.web.app/#/login"><button>Get Started</button></a>
+        <a href="https://litlab.live/#/login"><button>Get Started</button></a>
         <img src="/person-img1.png" alt="" className='card-imge' />
         <img src="/1ad2b98b2eb5dca32a42ab82c10fbd08.gif" className='card-imge gif-image' alt="" />
       </div>

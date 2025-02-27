@@ -1,12 +1,11 @@
-
 import { Link } from 'react-router-dom'
 import './Contact.scss'
 
 const Contact = () => {
     return (
         <div className='ContactMainWrapper'>
-            <section >
-                <div className="contact" >
+            <section>
+                <div className="contact">
                     <div className="top-section">
                         <div className="social-icons">
                             <a href="https://www.linkedin.com/company/litlablearning/" target='_blank'><img src="/Vector (1).png" alt="" /></a>
@@ -35,19 +34,20 @@ const Contact = () => {
                                 <img src="/Group 481816.png" alt="" />
                             </div>
                         </div>
-
-                    </div>
-                    <div className="policy-section">
-                        <Link to='/terms-and-conditions'><div>Terms and Conditions</div></Link>
-                        <Link to='/refund-policy'><div>Refund Policy</div></Link>
-                        <Link to='/privacy-policy'><div>Privacy Policy</div></Link>
-                        <Link to='/return-policy'><div>Return Policy</div></Link>
-                        <Link to='/shipping-policy'><div>Shipping Policy</div></Link>
                     </div>
                 </div>
-
             </section>
-
+            
+            {/* Moved the policy section outside the contact div for better positioning */}
+            <div className="policy-section-wrapper">
+                <div className="policy-section">
+                    <Link to='/terms-and-conditions'>Terms and Conditions</Link>
+                    <Link to='/refund-policy'>Refund Policy</Link>
+                    <Link to='/privacy-policy'>Privacy Policy</Link>
+                    <Link to='/return-policy'>Return Policy</Link>
+                    <Link to='/shipping-policy'>Shipping Policy</Link>
+                </div>
+            </div>
         </div>
     )
 }

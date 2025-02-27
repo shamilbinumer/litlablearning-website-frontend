@@ -26,7 +26,6 @@
                     letter-spacing: -4.074999809265137px;
                     text-align: center;
                     color: #6BCCE5;
-
                 }
             }
         }
@@ -39,11 +38,9 @@
             width: 435px;
             height: 300px;
 
-            // background-color: red;
             .contact-card {
                 width: 100%;
                 padding: 2rem;
-                // height: 300px;
                 background: #FFFFFF;
                 border: 0.96px solid #000000;
                 overflow: hidden;
@@ -92,42 +89,50 @@
                     }
                 }
             }
-          
         }
-        .policy-section{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 60px;
-            gap: 3rem;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translate(-50%,0);
-            a{
-                text-decoration: none;
-                color: rgb(255, 255, 255);
-                font-family: inter;
-                font-size: 15px;
-                font-weight: 400;
-            }
-        }
-       
     }
-    @media(max-width:1000px){
+
+    /* New approach: policy section as a separate entity */
+    .policy-section-wrapper {
+        background: #6CCEE6;
+        padding: 20px 0;
+    }
+    
+    .policy-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: inter;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+
+    @media(max-width:1000px) {
         .heading {
             padding-top: 0 !important;
-            h1{
+            h1 {
                 font-size: 40px !important;
                 letter-spacing: 0px !important;
             }
         }
+        
         .contact {
            min-height: 800px !important;
         }
+        
         .contact-cardWrapper {
             top: 17rem !important;
             width: 90% !important;
+            
             .item-card {
                 padding: 10px;
                 width: 100%;
@@ -152,14 +157,27 @@
                 }
             }
         }
-    }
-   @media(min-width:1000px) and (max-width:1420px){
-    .heading {
-        h1{
-            font-size: 112px !important;
-            letter-spacing: 0px !important;
+        
+        /* Mobile styles for the policy section */
+        .policy-section {
+            flex-direction: column;
+            gap: 1rem;
+            text-align: center;
+            
+            a {
+                font-size: 12px;
+                display: block;
+                padding: 5px 0;
+            }
         }
     }
-   } 
-    
+   
+    @media(min-width:1000px) and (max-width:1420px) {
+        .heading {
+            h1 {
+                font-size: 112px !important;
+                letter-spacing: 0px !important;
+            }
+        }
+    }
 }

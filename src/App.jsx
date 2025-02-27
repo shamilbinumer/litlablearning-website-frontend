@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./components/HomePage/Home";
-import PlanDetails from "./components/PlanDetails/PlanDetail";
+// import PlanDetails from "./components/PlanDetails/PlanDetail";
 import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions";
 import PraivasyPolicy from "./components/PraivasyPolicy/PraivasyPolicy";
 import RefundPolicy from "./components/RefundPolicy/RefundPolicy";
@@ -33,7 +33,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/early-bird-details" Component={PlanDetails} />
+        {/* <Route path="/early-bird-details" Component={PlanDetails} /> */}
         <Route path="/terms-and-conditions" Component={TermsAndConditions} />
         <Route path="/privacy-policy" Component={PraivasyPolicy} />
         <Route path="/refund-policy" Component={RefundPolicy} />

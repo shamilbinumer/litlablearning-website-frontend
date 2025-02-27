@@ -184,7 +184,7 @@ const PraivasyPolicy = () => {
             If you have any questions about this Privacy Policy, please contact us at <a href="mailto:Info@litlablearning.com">Info@litlablearning.com</a>.
           </p>
         </div>
-        <Link to='/early-bird-details'><button>Back</button></Link>
+        <Link to='/'><button>Back</button></Link>
       </div>
     </div>
   )

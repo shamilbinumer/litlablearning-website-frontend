@@ -28,7 +28,7 @@ Access to our educational services is typically granted electronically upon succ
 
                 </p>
             </div>
-            <Link to='/early-bird-details'><button>Back</button></Link>
+            <Link to='/'><button>Back</button></Link>
         </div>
     </div>
   )
