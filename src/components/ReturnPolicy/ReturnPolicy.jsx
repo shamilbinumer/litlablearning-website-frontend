@@ -22,7 +22,7 @@ const ReturnPolicy = () => {
                 <p className='term-disc'>Our services are primarily digital and accessed remotely through the LITLAB LEARNING app or website. Therefore, traditional return procedures for physical goods are not relevant.
                 </p>
             </div>
-            <Link to='/'><button>Back</button></Link>
+            {/* <Link to='/'><button>Back</button></Link> */}
         </div>
     </div>
   )

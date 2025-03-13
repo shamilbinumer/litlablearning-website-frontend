@@ -78,7 +78,7 @@ Any dispute arising out of or relating to these Terms and Conditions shall be su
                 </p>
               
             </div>
-            <Link to='/'><button>Back</button></Link>
+            {/* <Link to='/'><button>Back</button></Link> */}
         </div>
     </div>
   )

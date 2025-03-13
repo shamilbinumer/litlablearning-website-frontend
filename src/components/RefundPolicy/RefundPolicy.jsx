@@ -52,7 +52,7 @@ const RefundPolicy = () => {
                
               
             </div>
-            <Link to='/'><button>Back</button></Link>
+            {/* <Link to='/'><button>Back</button></Link> */}
         </div>
     </div>
   )

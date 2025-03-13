@@ -49,7 +49,6 @@ const Navbar = () => {
             <div>
             <a href="https://litlab.live/#/login" className='login'>Log in</a>
             <a href="https://litlab.live/#/signup" className='login sign-up'>Sign Up</a>
-
             </div>
            
             </div>
@@ -57,50 +56,45 @@ const Navbar = () => {
         </div>
       </div>
       <div className="mobile-nav-wrapper">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <Link to="/">
-              <img src="/Logo.png" alt="Logo" />
-            </Link>
-          </a>
-          <a href="https://litlab.live/#/login" className="login-btn">
-            Log in 
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded={isOpen ? "true" : "false"}
-            aria-label="Toggle navigation"
-            onClick={handleToggle}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div
-            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
-            id="navbarNavAltMarkup"
-            ref={collapseRef}
-          >
-            <div className="navbar-nav">
-              <a className="nav-link active" href="#" onClick={handleLinkClick}>
-                Home
-              </a>
+        <div className="mobile-navbar">
+          <div className="mobile-navbar-container">
+            <div className="mobile-logo">
+              <Link to="/">
+                <img src="/Logo.png" alt="Logo" />
+              </Link>
+            </div>
             
-              <Link
-                className="nav-link active"
-                to="#contact"
-                onClick={handleLinkClick}
+            <div className="mobile-nav-actions">
+              <a href='https://litlab.live/#/login' className="mobile-login-btn">
+                Log in
+              </a>
+              
+              <a href='https://litlab.live/#/signup' className="mobile-signup-btn">
+                Sign up
+              </a>
+              
+              <button
+                className="mobile-menu-toggle"
+                onClick={handleToggle}
+                aria-expanded={isOpen ? "true" : "false"}
               >
+                <span className="mobile-menu-icon"></span>
+              </button>
+            </div>
+          </div>
+          
+          <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
+            <div className="mobile-menu-links">
+              <Link to="/" className="mobile-nav-link" onClick={handleLinkClick}>
+                Home
+              </Link>
+              <Link to="#contact" className="mobile-nav-link" onClick={handleLinkClick}>
                 Contact
               </Link>
             </div>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
     </div>
   );
 };
